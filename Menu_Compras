@@ -1,21 +1,28 @@
-Parametricas Pais Paises paises           
-Parametricas Provincia Provincias provincias           
-Parametricas Localidad Localidades localidades           
-Parametricas CategoriaIva CategoriaIvas categoria_ivas           
-Parametricas TipoComprobante TipoComprobantes tipo_comprobantes   
-Parametricas TipoImpuesto TipoImpuestos tipo_impuestos      
-Parametricas TipoIva TipoIvas tipo_ivas           
-Parametricas TipoProducto TipoProdcutos tipo_productos      
-Parametricas TipoUbicacion TipoUbicaciones tipo_ubicaciones    
-Parametricas UnidadMedidad UnidadMedidas unidad_medidas      
-Entidades Producto Productos productos           
-Entidades Ubicacion Ubicaciones ubicaciones         
-Entidades ProductoUbicacion ProductoUbicaciones producto_ubicaciones 
-Entidades Stock Stocks stocks
-Entidades Despiece Despieces despieces
-Entidades ClienteProveedor ClienteProveedores cliente_proveedores
-Entidades ProveedorProducto ProveedorProductos proveedor_productos
-Procesos Compra Compras compras
-Procesos Venta Ventas ventas
-Procesos Movimiento Movimientos movimientos
-Procesos Presupuesto Presupuestos presupuestos
+
+Parametricas Gerencia
+Parametricas Sector
+Parametricas Oficina
+Parametricas Articulo
+Parametricas TipoComprobante 
+Parametricas TipoAsiento
+Parametricas PlanCuenta
+Entidades PlanCuentaPresupuesto
+Entidades AsientoPresupuesto
+Entidades AsientoPresupuestoDetalle
+Entidades Expediente
+Entidades Resolucion
+Entidades OrdenCompra
+Entidades OrdenCompraDetalle
+Entidades Proveedores
+Entidades Comprobante
+Entidades ComprobanteDetalle
+Entidades OrdenPago
+Entidades OrdenPagoDetalle
+Entidades MedioPago
+Entidades Asiento
+Entidades AsientoDetalle
+Proceso Efectivo    
+Proceso Cheque
+Proceso OrdenPagoMedioPago
+Proceso Transferencia
+
